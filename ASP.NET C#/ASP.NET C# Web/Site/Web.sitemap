@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="linkrer">
+    <siteMapNode url="~Trangchu.aspx" title="Trang chủ"  description="">
+    </siteMapNode>
+    <siteMapNode url="Hanghoa.aspx" title="hàng Hóa"  description="">
+     <siteMapNode url="Mathang.aspx" title="Mặt hàng"  description=""/>
+    </siteMapNode>
+    <siteMapNode url="Giaohang.aspx" title="Giao Hàng"  description="">
+      <siteMapNode url="Reviews.aspx" title="Hóa đơn"  description=""/>
+    </siteMapNode>
+    <siteMapNode url="Thanhtoan.aspx" title="Thanh Toán" description="">
+      
+    </siteMapNode>
+  </siteMapNode>
+
+</siteMap>

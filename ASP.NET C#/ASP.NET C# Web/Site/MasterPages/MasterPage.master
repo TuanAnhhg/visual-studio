@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPages_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+  <form id="form2" runat="server">
+    <div>
+        <nav style="width: 200px;float: left;">
+           <ul>
+                <li><a id="A1" href="~/MasterPage/Mathang.aspx" runat="server">Mặt hàng</a></li>
+               <li><a id="A2" href="~/MasterPage/Giaohang.aspx" runat="server">Giao hàng</a></li>
+               <li><a id="A3" href="~/MasterPage/Reviews.aspx" runat="server">Đơn hàng</a></li>
+           </ul>
+
+        </nav>
+        <section style="width: 750px;float: left;">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+          </section>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Frontend.master.cs" Inherits="MasterPages_Frontend" %>
+
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="../Scripts/modernizr-custom.min.js"></script>
+    <style type="text/css">
+        #form1 {
+            height: 303px;
+        }
+        .auto-style1 {
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+            <Scripts>
+                <asp:ScriptReference Name="jquery" />
+            </Scripts>
+        </asp:ScriptManager>
+        <div id="PageWrapper">
+            <header> <span class="auto-style1">Shipper </span> <a href="/"></a> </header>
+            <nav>
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticSubMenuIndent="16px" style="font-size: xx-large; font-weight: 700;" StaticEnableDefaultPopOutImage="False">
+                </asp:Menu>
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1">
+                </asp:TreeView>
+                <br />
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+            </nav>
+            <section id="MainContent">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath><br /><br />
+                <asp:ContentPlaceHolder id="cpMainContent" runat="server">
+                    
+                </asp:ContentPlaceHolder>
+            </section>
+            <aside id="Sidebar">
+                Thay đổi giao diện: <br />
+                <asp:DropDownList ID="ThemeList" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ThemeList_SelectedIndexChanged1">
+                    <asp:ListItem>Monochrome</asp:ListItem>
+                    <asp:ListItem>Darkgrey</asp:ListItem>
+                </asp:DropDownList>
+
+            </aside>
+            <footer style="color: #FFFFFF">Nguyễn Tuấn Anh CTT11CD3A</footer>
+        </div>
+    </form>
+    
+</body>
+</html>
