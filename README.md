@@ -11,3 +11,9 @@ Giao diện trang web gồm:
 <img src="https://www.upsieutoc.com/images/2019/06/15/Untitled3.png" alt="Untitled3.png" border="0" /><br/>
 + Trang thanh toán
 <img src="https://www.upsieutoc.com/images/2019/06/15/Untitled4.png" alt="Untitled4.png" border="0" /><br/>
++cơ sở dữ liệu <br/>
+<img src="https://uphinh.org/images/2019/06/21/Capture7.png" alt="Capture7.png" border="0" /><br/>
+<img src="https://uphinh.org/images/2019/06/21/Capture8.png" alt="Capture8.png" border="0" /><br/>
+<img src="https://uphinh.org/images/2019/06/21/Capture9.png" alt="Capture9.png" border="0" /><br/>
++trang Mặt hàng
+<img src="https://uphinh.org/images/2019/06/21/Capture3.png" alt="Capture3.png" border="0" /><br/>
